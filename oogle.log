@@ -1,0 +1,88 @@
+28 Nov, 2012 5:12:12 PM sm.nlp.oogle.executor.TestExecutor main
+INFO: Initializing the system..
+28 Nov, 2012 5:12:20 PM sm.nlp.oogle.executor.TestExecutor main
+INFO: Phrase Correction Started..
+28 Nov, 2012 5:14:30 PM sm.nlp.oogle.phrase_correction.NGramServiceManager getPhraseProbability
+INFO: Error in communication with NGram Server.
+28 Nov, 2012 5:14:30 PM sm.nlp.oogle.phrase_correction.NGramServiceManager getPhraseProbability
+INFO: An error occurred while getting probabilities.Error Due to, com.microsoft.research.webngram.service.exception.NgramServiceException: ﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Request Error</title>
+    <style>BODY { color: #000000; background-color: white; font-family: Verdana; margin-left: 0px; margin-top: 0px; } #content { margin-left: 30px; font-size: .70em; padding-bottom: 2em; } A:link { color: #336699; font-weight: bold; text-decoration: underline; } A:visited { color: #6699cc; font-weight: bold; text-decoration: underline; } A:active { color: #336699; font-weight: bold; text-decoration: underline; } .heading1 { background-color: #003366; border-bottom: #336699 6px solid; color: #ffffff; font-family: Tahoma; font-size: 26px; font-weight: normal;margin: 0em 0em 10px -20px; padding-bottom: 8px; padding-left: 30px;padding-top: 16px;} pre { font-size:small; background-color: #e5e5cc; padding: 5px; font-family: Courier New; margin-top: 0px; border: 1px #f0f0e0 solid; white-space: pre-wrap; white-space: -pre-wrap; word-wrap: break-word; } table { border-collapse: collapse; border-spacing: 0px; font-family: Verdana;} table th { border-right: 2px white solid; border-bottom: 2px white solid; font-weight: bold; background-color: #cecf9c;} table td { border-right: 2px white solid; border-bottom: 2px white solid; background-color: #e5e5cc;}</style>
+  </head>
+  <body>
+    <div id="content">
+      <p class="heading1">Request Error</p>
+      <p>The server encountered an error processing the request. See server logs for more details.</p>
+    </div>
+  </body>
+</html>
+
+28 Nov, 2012 5:14:30 PM sm.nlp.oogle.main.OogleCorrector correctPhrase
+INFO: null error occured during correction of cops and robers phrase.
+28 Nov, 2012 5:16:01 PM sm.nlp.oogle.executor.TestExecutor main
+INFO: Sentence Correction Started..
+28 Nov, 2012 5:17:21 PM sm.nlp.oogle.phrase_correction.NGramServiceManager getPhraseProbability
+INFO: Error in communication with NGram Server.
+28 Nov, 2012 5:17:21 PM sm.nlp.oogle.phrase_correction.NGramServiceManager getPhraseProbability
+INFO: An error occurred while getting probabilities.Error Due to, com.microsoft.research.webngram.service.exception.NgramServiceException: ﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Request Error</title>
+    <style>BODY { color: #000000; background-color: white; font-family: Verdana; margin-left: 0px; margin-top: 0px; } #content { margin-left: 30px; font-size: .70em; padding-bottom: 2em; } A:link { color: #336699; font-weight: bold; text-decoration: underline; } A:visited { color: #6699cc; font-weight: bold; text-decoration: underline; } A:active { color: #336699; font-weight: bold; text-decoration: underline; } .heading1 { background-color: #003366; border-bottom: #336699 6px solid; color: #ffffff; font-family: Tahoma; font-size: 26px; font-weight: normal;margin: 0em 0em 10px -20px; padding-bottom: 8px; padding-left: 30px;padding-top: 16px;} pre { font-size:small; background-color: #e5e5cc; padding: 5px; font-family: Courier New; margin-top: 0px; border: 1px #f0f0e0 solid; white-space: pre-wrap; white-space: -pre-wrap; word-wrap: break-word; } table { border-collapse: collapse; border-spacing: 0px; font-family: Verdana;} table th { border-right: 2px white solid; border-bottom: 2px white solid; font-weight: bold; background-color: #cecf9c;} table td { border-right: 2px white solid; border-bottom: 2px white solid; background-color: #e5e5cc;}</style>
+  </head>
+  <body>
+    <div id="content">
+      <p class="heading1">Request Error</p>
+      <p>The server encountered an error processing the request. See server logs for more details.</p>
+    </div>
+  </body>
+</html>
+
+28 Nov, 2012 5:17:21 PM sm.nlp.oogle.main.OogleCorrector correctSentence
+INFO: null error occured during correction of In great powrr lies great responsibility sentence.
+28 Nov, 2012 5:17:54 PM sm.nlp.oogle.phrase_correction.NGramServiceManager getPhraseProbability
+INFO: Error in communication with NGram Server.
+28 Nov, 2012 5:17:54 PM sm.nlp.oogle.phrase_correction.NGramServiceManager getPhraseProbability
+INFO: An error occurred while getting probabilities.Error Due to, com.microsoft.research.webngram.service.exception.NgramServiceException: ﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Request Error</title>
+    <style>BODY { color: #000000; background-color: white; font-family: Verdana; margin-left: 0px; margin-top: 0px; } #content { margin-left: 30px; font-size: .70em; padding-bottom: 2em; } A:link { color: #336699; font-weight: bold; text-decoration: underline; } A:visited { color: #6699cc; font-weight: bold; text-decoration: underline; } A:active { color: #336699; font-weight: bold; text-decoration: underline; } .heading1 { background-color: #003366; border-bottom: #336699 6px solid; color: #ffffff; font-family: Tahoma; font-size: 26px; font-weight: normal;margin: 0em 0em 10px -20px; padding-bottom: 8px; padding-left: 30px;padding-top: 16px;} pre { font-size:small; background-color: #e5e5cc; padding: 5px; font-family: Courier New; margin-top: 0px; border: 1px #f0f0e0 solid; white-space: pre-wrap; white-space: -pre-wrap; word-wrap: break-word; } table { border-collapse: collapse; border-spacing: 0px; font-family: Verdana;} table th { border-right: 2px white solid; border-bottom: 2px white solid; font-weight: bold; background-color: #cecf9c;} table td { border-right: 2px white solid; border-bottom: 2px white solid; background-color: #e5e5cc;}</style>
+  </head>
+  <body>
+    <div id="content">
+      <p class="heading1">Request Error</p>
+      <p>The server encountered an error processing the request. See server logs for more details.</p>
+    </div>
+  </body>
+</html>
+
+28 Nov, 2012 5:17:54 PM sm.nlp.oogle.main.OogleCorrector correctSentence
+INFO: null error occured during correction of To be or to bea is not the question sentence.
+28 Nov, 2012 5:18:02 PM sm.nlp.oogle.phrase_correction.NGramServiceManager getPhraseProbability
+INFO: Error in communication with NGram Server.
+28 Nov, 2012 5:18:02 PM sm.nlp.oogle.phrase_correction.NGramServiceManager getPhraseProbability
+INFO: An error occurred while getting probabilities.Error Due to, com.microsoft.research.webngram.service.exception.NgramServiceException: ﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Request Error</title>
+    <style>BODY { color: #000000; background-color: white; font-family: Verdana; margin-left: 0px; margin-top: 0px; } #content { margin-left: 30px; font-size: .70em; padding-bottom: 2em; } A:link { color: #336699; font-weight: bold; text-decoration: underline; } A:visited { color: #6699cc; font-weight: bold; text-decoration: underline; } A:active { color: #336699; font-weight: bold; text-decoration: underline; } .heading1 { background-color: #003366; border-bottom: #336699 6px solid; color: #ffffff; font-family: Tahoma; font-size: 26px; font-weight: normal;margin: 0em 0em 10px -20px; padding-bottom: 8px; padding-left: 30px;padding-top: 16px;} pre { font-size:small; background-color: #e5e5cc; padding: 5px; font-family: Courier New; margin-top: 0px; border: 1px #f0f0e0 solid; white-space: pre-wrap; white-space: -pre-wrap; word-wrap: break-word; } table { border-collapse: collapse; border-spacing: 0px; font-family: Verdana;} table th { border-right: 2px white solid; border-bottom: 2px white solid; font-weight: bold; background-color: #cecf9c;} table td { border-right: 2px white solid; border-bottom: 2px white solid; background-color: #e5e5cc;}</style>
+  </head>
+  <body>
+    <div id="content">
+      <p class="heading1">Request Error</p>
+      <p>The server encountered an error processing the request. See server logs for more details.</p>
+    </div>
+  </body>
+</html>
+
+28 Nov, 2012 5:18:02 PM sm.nlp.oogle.main.OogleCorrector correctSentence
+INFO: null error occured during correction of The crime raet seems to be under control sentence.
+28 Nov, 2012 5:20:26 PM sm.nlp.oogle.executor.TestExecutor main
+INFO: End of Processing
